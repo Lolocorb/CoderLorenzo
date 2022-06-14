@@ -71,7 +71,6 @@ width: 250px;}
 
 
 @keyframes aparecer { 0%{width:100px;}  
-0.{width: 150px;} 
 25%{width: 400px;} 
 50%{width: 200px;
 background-color: rgba(33, 177, 141, 0.514);}
