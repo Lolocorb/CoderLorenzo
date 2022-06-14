@@ -1,8 +1,26 @@
 .nav-item{font-family: 'Roboto Slab', serif;
 font-size: 25px;
+height: 50px;
+transition: 2s;
+width: 200px;
+
 }
 
-.navbar-brand{font-family: Arial, Helvetica, sans-serif;}
+.nav-item:hover{ height: 60px;
+width: 250px;
+background-color: pink;
+border-radius: 10px;
+}
+
+.navbar-brand{font-family: Arial, Helvetica, sans-serif;
+width: 100px;
+transition: 2s;
+height: 50px;}
+
+.navbar-brand:hover{height: 60px;
+     width: 250px;
+    background-color: pink;
+    border-radius: 10px;}
 
 
 .main-ofertas{  
@@ -27,18 +45,29 @@ animation-iteration-count: infinite;
 }
 
 
-.card{ margin: 50px;
+.col{ margin: 50px;
 padding: 20px;
-width: 25rem;
-transition: 2s;
- background-color: rgba(226, 157, 169, 0.726);}
+width: 35rem;
+ background-color: rgba(226, 157, 169, 0.726);
+border-radius: 5px;
+}
 
-.card:hover{ width: 40rem;}
+.card-img-top{ transition: 2s;
+height:290px;
+width: 290px;}
+
+.card-img-top:hover{height: 310px;
+width: 310px;}
  
 
 .btn{background-color: pink;
-}
+    transition: 2s;
+    height: 40px;
+    width: 200px;
 
+}
+.btn:hover{ height: 50px;
+width: 250px;}
 
 
 @keyframes aparecer { 0%{width:100px;}  
