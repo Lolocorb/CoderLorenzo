@@ -3,7 +3,7 @@ font-size: 25px;
 }
 
 .navbar-brand{font-family: Arial, Helvetica, sans-serif;}
-.mb-3{ margin: 50px;}
+
 
 .main-ofertas{  
     margin: 200px;
@@ -65,7 +65,8 @@ text-decoration: none;
 background-color: rgb(212, 114, 130);
 }
 
-.footer{text-decoration: none;}
+.footer{text-decoration: none;
+background-color: pink;}
 
 .footer-h2{ display: flex;
 justify-content: center;
@@ -75,3 +76,21 @@ border: 10px;
 margin: 30px;
 border-radius: 10px;
 }
+
+
+
+.header-h1{ display: flex;
+justify-content: center;
+font-family: 'Inconsolata', monospace;
+padding: 20px;
+background-color: pink;
+
+}
+
+.main{background-color: pink;
+} 
+
+.mb-3{ background-color: pink;
+padding: 30px;}
+ 
+
