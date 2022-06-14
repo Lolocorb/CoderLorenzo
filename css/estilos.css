@@ -11,6 +11,67 @@ font-size: 25px;
     justify-content: space-between;
 
 }
+.main-h4{ display: flex;
+padding: 20px;
+justify-content: center;
+margin: 50px;
+background-color: rgba(33, 177, 141, 0.514);
+border-radius: 2px; 
+font-size: 50px;
+height: 100%;
+box-sizing: content-box;
+font-family: 'Inconsolata', monospace;
+animation-duration: 2s;
+animation-name: aparecer;
+animation-iteration-count: infinite;
+}
 
 
+.card{ margin: 50px;
+padding: 20px;
+width: 25rem;
+transition: 2s;
+ background-color: rgba(226, 157, 169, 0.726);}
+
+.card:hover{ width: 40rem;}
  
+
+.btn{background-color: pink;
+}
+
+
+
+@keyframes aparecer { 0%{width:100px;}  
+0.{width: 150px;} 
+25%{width: 400px;} 
+50%{width: 200px;
+background-color: rgba(33, 177, 141, 0.514);}
+75%{width: 300px;}
+100% {width:100px;
+background-color: rgba(226, 157, 169, 0.726)}
+ }
+
+.footer-links{display:flex;
+justify-content:center;
+margin: 20px;
+padding: 20px;}
+
+ .redes{List-style: none;
+padding: 15px;
+border: 30px;
+margin: 70px;
+border-radius: 5px;
+text-decoration: none;
+background-color: rgb(212, 114, 130);
+}
+
+.footer{text-decoration: none;}
+
+.footer-h2{ display: flex;
+justify-content: center;
+background-color: rgb(212, 114, 130);
+padding: 20px;
+border: 10px;
+margin: 30px;
+border-radius: 10px;
+}
