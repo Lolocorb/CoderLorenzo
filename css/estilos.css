@@ -87,14 +87,15 @@ padding: 20px;}
  .redes{List-style: none;
 padding: 15px;
 border: 30px;
-margin: 70px;
+margin: auto;
 border-radius: 5px;
 text-decoration: none;
 background-color: rgb(212, 114, 130);
+width: max-content;
 }
 
-.footer{text-decoration: none;
-background-color: pink;}
+.footer{ margin: auto;
+ width: max-content;}
 
 .footer-h2{ display: flex;
 justify-content: center;
