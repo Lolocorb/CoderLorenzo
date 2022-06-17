@@ -1,0 +1,89 @@
+.body {
+  background-color: pink;
+}
+.body .main-h4 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin: 50px;
+  background-color: rgba(33, 177, 141, 0.514);
+  border-radius: 2px;
+  font-size: 50px;
+  height: 100%;
+  box-sizing: content-box;
+  font-family: "Inconsolata", monospace;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes aparecer {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 400px;
+  }
+  50% {
+    width: 200px;
+    background-color: rgba(33, 177, 141, 0.514);
+  }
+  75% {
+    width: 300px;
+  }
+  100% {
+    width: 100px;
+    background-color: rgba(226, 157, 169, 0.726);
+  }
+}
+@keyframes aparecer {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 400px;
+  }
+  50% {
+    width: 200px;
+    background-color: rgba(33, 177, 141, 0.514);
+  }
+  75% {
+    width: 300px;
+  }
+  100% {
+    width: 100px;
+    background-color: rgba(226, 157, 169, 0.726);
+  }
+}
+.body .main-ofertas {
+  margin: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.body .nav-item {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  height: 50px;
+  transition: 2s;
+  width: 200px;
+}
+.body .nav-item:hover {
+  height: 60px;
+  width: 250px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.body .navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  transition: 2s;
+  height: 50px;
+}
+.body .navbar-brand:hover {
+  height: 60px;
+  width: 250px;
+  background-color: pink;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
