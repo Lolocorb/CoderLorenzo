@@ -57,6 +57,39 @@ background-color: rgba(226, 157, 169, 0.726)}
 
 
 
+
+.footer{      
+
+.footer-h6{ display: flex;
+            justify-content: center;
+            background-color: rgb(212, 114, 130);
+            padding: 30px;
+            border: 10px;
+            margin: 30px;
+            border-radius: 10px; 
+            }
+
+
+
+ .redes{ list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 10px;
+    margin: 0%;
+   
+}
+
+   
+
+        
+
+
+
+}
+
+
+
 .container{
 
     
@@ -65,6 +98,7 @@ background-color: rgba(226, 157, 169, 0.726)}
         width: 35rem;
          background-color: rgba(226, 157, 169, 0.726);
         border-radius: 5px;
+       
         }
         
         .card-img-top{ transition: 2s;
@@ -88,3 +122,19 @@ background-color: rgba(226, 157, 169, 0.726)}
         
         
 }
+
+
+
+.header-h1{ display: flex;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    padding: 20px;
+    background-color: pink;
+    
+    }
+    
+    .main{background-color: pink;
+    } 
+    
+    .mb-3{ background-color: pink;
+    padding: 30px;}
