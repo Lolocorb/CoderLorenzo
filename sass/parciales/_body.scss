@@ -1,0 +1,26 @@
+.body{ background-color: pink;
+
+    .main-h4{ display: flex;
+        padding: 20px;
+        justify-content: center;
+        margin: 50px;
+        background-color: rgba(33, 177, 141, 0.514);
+        border-radius: 2px; 
+        font-size: 50px;
+        height: 100%;
+        box-sizing: content-box;
+        font-family: 'Inconsolata', monospace;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        }
+
+        @keyframes aparecer { 0%{width:100px;}  
+25%{width: 400px;} 
+50%{width: 200px;
+background-color: rgba(33, 177, 141, 0.514);}
+75%{width: 300px;}
+100% {width:100px;
+background-color: rgba(226, 157, 169, 0.726)}
+ }
+}
