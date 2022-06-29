@@ -53,19 +53,32 @@
               </nav> 
         </div>
      </header>   
-     <main class="main__textual">
-       <h2> <strong>Dudas </strong> </h2>
-         <li>¿Como comprar?</li>
-         <ul>¡Tienda virtual! Escribinos por MD y comentanos que producto te interesa y te comunicaremos si tenemos stock!</ul>
-         <li>Formas de pago</li>
-         <ul>1-Giro a cuenta BROU</ul>
-         <ul>2-Mercado pago</ul>
-         <li>Envios</li>
-         <ul>Solo en Uruguay Via Dac o Mirtrans (a cargo del cliente)</ul>
-         <h3> <strong> Dudas personalizadas! </strong> </h3>
-         <label for="pregunta">Dudas personalizadas!</label>     
-         <input type="text" id="pregunta" >
-         <button class="btn" >Enviar duda :)</button>
+     <main class="main_dudas">
+       <h2 class="main_dudash2"> <strong>Dudas </strong> </h2>
+       <div class="main_dudas">
+         <li class="main_pregunta">¿Como comprar?</li>
+         <div class="box_dudas">
+                   <ul class="main_respuesta">¡Tienda virtual! Escribinos por MD y comentanos que producto te interesa y te comunicaremos si tenemos stock!</ul>
+         </div>
+         <li class="main_pregunta">Formas de pago</li>
+         <div class="box_dudas">
+          <ul class="main_respuesta">1-Giro a cuenta BROU</ul>
+         <ul class="main_respuesta">2-Mercado pago</ul>
+         </div>
+         
+         <li class="main_pregunta">Envios</li>
+         <div class="box_dudas">
+          <ul class="main_respuesta">Solo en Uruguay Via Dac o Mirtrans (a cargo del cliente)</ul>
+         </div>
+         
+         <div class="dudas_particulares">
+          <label for="pregunta"  > <strong>Reclamos o pedidos particulares! </strong> </label>     
+         <input type="text" id="pregunta">
+         <button class="btn" >  <strong> Enviar duda :) </strong> </button>
+         </div>
+         
+       </div>
+        
      </main>
      <footer class="footer">
       <h6 class="footer-h6">Redes Sociales</h6>

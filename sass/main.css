@@ -187,4 +187,94 @@
   background-color: pink;
   border-radius: 10px;
 }
+
+.main_dudas .main_dudash2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_dudas .main_dudas {
+  list-style: none;
+}
+
+.main_dudas .main_pregunta {
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+.main_dudas .main_respuesta {
+  font-size: 1rem;
+  border-radius: 2px;
+  background-color: rgba(33, 177, 141, 0.514);
+  padding: 5px;
+  margin: 5px;
+  border: 90px;
+  height: 60px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: auto;
+}
+
+.main_dudas .box_dudas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_dudas .dudas_particulares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+.form {
+  height: 300px;
+  width: 800px;
+  padding: 40px;
+  border: 100px;
+  margin: auto;
+}
+
+.form .form_email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.form .form_bloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 200px;
+}
 /*# sourceMappingURL=main.css.map */
