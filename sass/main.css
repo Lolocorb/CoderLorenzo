@@ -1,17 +1,23 @@
 .body {
   background-color: pink;
 }
+
 .body .main-h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 50px;
   background-color: rgba(33, 177, 141, 0.514);
   border-radius: 2px;
   font-size: 50px;
   height: 100%;
-  box-sizing: content-box;
-  font-family: "Inconsolata", monospace;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: 'Inconsolata', monospace;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-name: aparecer;
@@ -19,6 +25,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
 @-webkit-keyframes aparecer {
   0% {
     width: 100px;
@@ -38,6 +45,7 @@
     background-color: rgba(226, 157, 169, 0.726);
   }
 }
+
 @keyframes aparecer {
   0% {
     width: 100px;
@@ -60,11 +68,16 @@
 
 .card {
   margin: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: pink;
   border-color: transparent;
 }
+
 .card .col {
   margin: 50px;
   padding: 20px;
@@ -72,28 +85,34 @@
   background-color: rgba(226, 157, 169, 0.726);
   border-radius: 5px;
 }
+
 .card .card-img-top {
+  -webkit-transition: 2s;
   transition: 2s;
   height: 290px;
   width: 290px;
 }
+
 .card .card-img-top:hover {
   height: 310px;
   width: 310px;
 }
+
 .card .btn {
   background-color: pink;
+  -webkit-transition: 2s;
   transition: 2s;
   height: 40px;
   width: 200px;
 }
+
 .card .btn:hover {
   height: 50px;
   width: 250px;
 }
 
 .footer .col {
-  background-color: rgb(212, 114, 130);
+  background-color: #d47282;
   text-decoration: none;
   padding: 20px;
   border: 10px;
@@ -101,53 +120,71 @@
   border-radius: 10px;
   height: 80px;
   width: 80px;
+  -webkit-transition: 1s;
   transition: 1s;
 }
+
 .footer .col:hover {
   height: 90px;
   width: 100px;
   background-color: rgba(33, 177, 141, 0.514);
 }
+
 .footer-h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  background-color: rgb(212, 114, 130);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d47282;
   padding: 30px;
   border: 10px;
   margin: 30px;
   border-radius: 10px;
 }
+
 .footer__redes {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10px;
   border: 10px;
   margin: 0%;
 }
 
 .navbar .nav-item {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 25px;
   height: 50px;
+  -webkit-transition: 2s;
   transition: 2s;
   width: 200px;
 }
+
 .navbar .nav-item:hover {
   height: 60px;
   width: 250px;
   background-color: pink;
   border-radius: 10px;
 }
+
 .navbar .navbar-brand {
   font-family: Arial, Helvetica, sans-serif;
   width: 100px;
+  -webkit-transition: 2s;
   transition: 2s;
   height: 50px;
 }
+
 .navbar .navbar-brand:hover {
   height: 60px;
   width: 250px;
   background-color: pink;
   border-radius: 10px;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
