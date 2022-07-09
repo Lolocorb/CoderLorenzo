@@ -1,34 +1,36 @@
 
 .main_nosotros{
 
-    .col-sm{ border-radius: 10px;
-background-color: palevioletred;
-width: 15rem;
-margin: 200px;
-padding: 100px;}
+    .col-sm{ 
+        margin: 50px;
+        padding: 20px;
+        width: 50rem;
+         background-color: rgba(226, 157, 169, 0.726);
+        border-radius: 5px;
+        height: 40rem ;
+        overflow: scroll;
+        overflow-x: hidden;
+
+
+   }
+
+   @media (max-width: 820px) {
+
+    .col-sm{ width: 20rem;}
+    
+   }
 
 
 
-.h2_nosotros{ display: flex;
-justify-content: center;
-padding: 40px;
-background-color: rgba(25, 129, 103, 0.514);
-margin-bottom: 70px;
-border-radius: 10px;}
+   
 
-.h3_nosotros{ display: flex;
-    justify-content: center;
-    background-color: rgba(25, 129, 103, 0.514);
-padding: 40px;
-margin-bottom: 70px;
-border-radius: 10px;}
 
-.h4_nosotros{display: flex;
-    justify-content: center;
-    padding: 40px;
-    background-color: rgba(25, 129, 103, 0.514);
-    margin-bottom: 70px;
-border-radius: 10px;}
+
+
+
+
+
+
 
 .nosotros{ background-color: pink;
 border-radius: 10px;
