@@ -58,38 +58,13 @@
     height: 50px;
     width: 250px; }
 
-.footer .col {
-  background-color: #d47282;
-  text-decoration: none;
-  padding: 20px;
-  border: 10px;
-  margin: 10px;
-  border-radius: 10px;
-  height: 80px;
-  width: 80px;
-  transition: 1s; }
-
-.footer .col:hover {
-  height: 90px;
-  width: 100px;
-  background-color: rgba(33, 177, 141, 0.514); }
-
-.footer-h6 {
-  display: flex;
-  justify-content: center;
-  background-color: #d47282;
-  padding: 30px;
-  border: 10px;
-  margin: 30px;
-  border-radius: 10px; }
-
-.footer__redes {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  border: 10px;
-  margin: 0%; }
+.footer {
+  background-color: palevioletred;
+  padding: 40px; }
+  .footer .itemlogo {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block; }
 
 .navbar .nav-item {
   font-family: 'Roboto Slab', serif;
@@ -150,6 +125,13 @@
   display: flex;
   justify-content: center;
   margin: 50px; }
+
+.main_dudas .contact {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin: 10px;
+  border: 5px; }
 
 .main_form {
   background-color: pink; }

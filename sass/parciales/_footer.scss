@@ -1,39 +1,12 @@
-.footer{     
+.footer{  background-color: palevioletred; 
+    padding: 40px;
     
-    .col { background-color: rgb(212, 114, 130);
-    text-decoration: none;
-padding: 20px;
-border: 10px;
-margin: 10px;
-border-radius: 10px;
-height: 80px;
-width: 80px;
-transition: 1s;
-}
+
+.itemlogo{ width: 3.5rem;
+height: 3.5rem;
+display: inline-block;}
 
 
-.col:hover{ height: 90px;
-width: 100px;
-background-color: rgba(33, 177, 141, 0.514)}
 
-    &-h6{ display: flex;
-                justify-content: center;
-                background-color: rgb(212, 114, 130);
-                padding: 30px;
-                border: 10px;
-                margin: 30px;
-                border-radius: 10px; 
-                }
-    
-    
-    
-     &__redes{ list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        border: 10px;
-        margin: 0%;
-       
-    }
     
     }
