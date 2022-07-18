@@ -192,3 +192,12 @@
 
 .main_nosotros .img-fluid:hover {
   background: brown; }
+
+.main_nosotros .text {
+  border: 20px;
+  padding: 0.5rem;
+  margin: 1px; }
+
+.main_nosotros .text2 {
+  padding: 0.3rem;
+  margin: 1px; }
