@@ -1,0 +1,45 @@
+.main_dudas{
+
+    .main_dudash2{ display: flex;
+    justify-content: center;}
+
+    .main_dudas{ list-style: none;}
+
+
+    .main_pregunta{ font-size: 2rem;
+    display: flex;
+     justify-content: center;
+     font-family: 'Inconsolata', monospace;
+    
+}
+
+     .main_respuesta{ 
+font-size: 1rem;
+ border-radius: 2px;
+ background-color: rgba(33, 177, 141, 0.514);
+padding: 5px;
+margin: 5px;
+border: 90px;
+height: 60px;
+width: 400px;
+ display: flex;
+justify-content: center;
+overflow: auto;}
+
+.box_dudas{ display: flex;
+justify-content: center;
+}
+
+.dudas_particulares{display: flex;
+justify-content: center;
+margin: 50px;}
+
+.contact{display: flex;
+justify-content: center;
+font-size: 12px; 
+margin: 10px;
+border: 5px;
+
+}
+
+}

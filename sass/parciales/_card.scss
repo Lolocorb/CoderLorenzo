@@ -1,0 +1,36 @@
+.card{
+    margin: 0%;
+        display: flex;
+        justify-content: space-between;
+    background-color: pink;
+    border-color: transparent;
+
+    .col{ margin: 50px;
+        padding: 20px;
+        width: 35rem;
+         background-color: rgba(226, 157, 169, 0.726);
+        border-radius: 5px;
+        height: 35rem ;
+        
+       
+        }
+        
+        .card-img-top{ transition: 2s;
+        height:290px;
+        width: 290px;}
+        
+        .card-img-top:hover{height: 310px;
+        width: 310px;}
+         
+        
+        .btn{background-color: pink;
+            transition: 2s;
+            height: 40px;
+            width: 200px;
+        
+        }
+
+        .btn:hover{ height: 50px;
+        width: 250px;}
+
+}

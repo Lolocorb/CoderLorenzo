@@ -1,0 +1,203 @@
+.body {
+  background-color: pink; }
+  .body .main-h4 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgba(33, 177, 141, 0.514);
+    border-radius: 2px;
+    font-size: 50px;
+    height: 100%;
+    box-sizing: content-box;
+    font-family: 'Inconsolata', monospace;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    width: 100px; }
+  25% {
+    width: 400px; }
+  50% {
+    width: 200px;
+    background-color: rgba(33, 177, 141, 0.514); }
+  75% {
+    width: 300px; }
+  100% {
+    width: 100px;
+    background-color: rgba(226, 157, 169, 0.726); } }
+
+.card {
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  border-color: transparent; }
+  .card .col {
+    margin: 50px;
+    padding: 20px;
+    width: 35rem;
+    background-color: rgba(226, 157, 169, 0.726);
+    border-radius: 5px;
+    height: 35rem; }
+  .card .card-img-top {
+    transition: 2s;
+    height: 290px;
+    width: 290px; }
+  .card .card-img-top:hover {
+    height: 310px;
+    width: 310px; }
+  .card .btn {
+    background-color: pink;
+    transition: 2s;
+    height: 40px;
+    width: 200px; }
+  .card .btn:hover {
+    height: 50px;
+    width: 250px; }
+
+.footer {
+  background-color: palevioletred;
+  padding: 40px; }
+  .footer .itemlogo {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block; }
+
+.navbar .nav-item {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  height: 50px;
+  transition: 2s;
+  width: 200px; }
+
+.navbar .nav-item:hover {
+  height: 60px;
+  width: 250px;
+  background-color: pink;
+  border-radius: 10px; }
+
+.navbar .navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  transition: 2s;
+  height: 50px; }
+
+.navbar .navbar-brand:hover {
+  height: 60px;
+  width: 250px;
+  background-color: pink;
+  border-radius: 10px; }
+
+.main_dudas .main_dudash2 {
+  display: flex;
+  justify-content: center; }
+
+.main_dudas .main_dudas {
+  list-style: none; }
+
+.main_dudas .main_pregunta {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace; }
+
+.main_dudas .main_respuesta {
+  font-size: 1rem;
+  border-radius: 2px;
+  background-color: rgba(33, 177, 141, 0.514);
+  padding: 5px;
+  margin: 5px;
+  border: 90px;
+  height: 60px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  overflow: auto; }
+
+.main_dudas .box_dudas {
+  display: flex;
+  justify-content: center; }
+
+.main_dudas .dudas_particulares {
+  display: flex;
+  justify-content: center;
+  margin: 50px; }
+
+.main_dudas .contact {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin: 10px;
+  border: 5px; }
+
+.main_form {
+  background-color: pink; }
+  .main_form .h1_form {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    margin: 60px; }
+  .main_form .form {
+    height: 300px;
+    width: 800px;
+    padding: 40px;
+    border: 100px;
+    margin: auto; }
+  .main_form .form_email {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px; }
+  .main_form .form_bloque {
+    display: flex;
+    justify-content: center;
+    margin: 200px; }
+  @media (max-width: 820px) {
+    .main_form .main_form {
+      width: 0rem; } }
+
+.main_nosotros .col-sm {
+  margin: 50px;
+  padding: 20px;
+  width: 50rem;
+  background-color: rgba(226, 157, 169, 0.726);
+  border-radius: 5px;
+  height: 40rem;
+  overflow: scroll;
+  overflow-x: hidden; }
+
+@media (max-width: 820px) {
+  .main_nosotros .col-sm {
+    width: 20rem; } }
+
+.main_nosotros .nosotros {
+  background-color: pink;
+  border-radius: 10px;
+  margin: 20px;
+  border: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: center; }
+
+.main_nosotros .img-fluid {
+  transition: 2s;
+  background-image: none; }
+
+.main_nosotros .img-fluid:hover {
+  background: brown; }
+
+.main_nosotros .text {
+  border: 20px;
+  padding: 0.5rem;
+  margin: 1px; }
+
+.main_nosotros .text2 {
+  padding: 0.3rem;
+  margin: 1px; }

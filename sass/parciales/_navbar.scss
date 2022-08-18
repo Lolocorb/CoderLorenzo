@@ -1,0 +1,29 @@
+.navbar{
+
+    .nav-item{font-family: 'Roboto Slab', serif;
+        font-size: 25px;
+        height: 50px;
+        transition: 2s;
+        width: 200px;
+        
+        }
+        
+        .nav-item:hover{ height: 60px;
+        width: 250px;
+        background-color: pink;
+        border-radius: 10px;
+        }
+        
+        .navbar-brand{font-family: Arial, Helvetica, sans-serif;
+        width: 100px;
+        transition: 2s;
+        height: 50px;}
+        
+        .navbar-brand:hover{height: 60px;
+             width: 250px;
+            background-color: pink;
+            border-radius: 10px;
+    }
+            
+
+}
