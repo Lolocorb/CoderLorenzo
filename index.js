@@ -1,5 +1,7 @@
 //Proyecto Pre entrega CoderHouse LorenzoCorbalan
 
+
+
 let Objetos=prompt("Que estas buscando?");
 
 
@@ -108,6 +110,32 @@ TablaCarro.onmouseover = () => {
     console.log("Desea agregar este producto al carrito?");
     TablaCarro.className="btn btn-secundary";
 }
+
+//Pre entrega numero 2
+//para visualizar esto se debe ir a "formulario.html" (se puede acceder desde la navbar)
+
+
+let correo=document.getElementById("correo")
+let contrasenia=document.getElementById("contrasenia")
+
+let envio=document.getElementById("formulario");
+formulario.addEventListener("submit", mandarFormulario);
+
+function mandarFormulario (ev){
+     ev.preventodefault();
+     let formulario = e.target 
+     console.log(formulario.children[0].value);
+     console.log(formulario.children[1].value);
+        
+    
+
+}
+
+
+
+
+
+
 
 
 
